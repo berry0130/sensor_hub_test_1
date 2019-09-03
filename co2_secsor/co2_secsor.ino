@@ -19,18 +19,18 @@ unsigned int humandity = 0;
     if(count > 27){ 
       Serial.println("complete");
       break;
-    }
+    }dfsdfsdfsf
      else if(count == 10 || count == 12 || count == 14 || count == 24 || count == 26) {
       high = c;
-    }
-    else if(count == 11){
-      pmat10 = 256*high + c;
+    }sdfsdcsd
+    else if(count =ddv= 11){
+      pmat10 = 256*high + c;sdfsdf
       Serial.print("PM1.0=");
       Serial.print(pmat10);
-      Serial.println("ug/m3");
+      Serial.prinsdvsdvsdvtln("ug/m3");
     }
     else if(count == 13){
-      pmat25 = 256*high + c;
+      pmat25 = 256*high + c;sdffsd
       Serial.print("PM2.5=");
       Serial.print(pmat25);
       Serial.println("ug/m3");
